@@ -12,8 +12,16 @@
 		6CEDA0C21A4E972B0098C919 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEDA0C11A4E972B0098C919 /* ViewController.m */; };
 		6CEDA0C51A4E972B0098C919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CEDA0C31A4E972B0098C919 /* Main.storyboard */; };
 		6CEDA0C71A4E972B0098C919 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CEDA0C61A4E972B0098C919 /* Images.xcassets */; };
-		6CEDA0CA1A4E972B0098C919 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CEDA0C81A4E972B0098C919 /* LaunchScreen.xib */; };
 		6CEDA0D61A4E972B0098C919 /* SYWaveformPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEDA0D51A4E972B0098C919 /* SYWaveformPlayerTests.m */; };
+		6CEDA0E61A4E97430098C919 /* pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CEDA0E01A4E97430098C919 /* pausebutton.png */; };
+		6CEDA0E71A4E97430098C919 /* playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CEDA0E11A4E97430098C919 /* playbutton.png */; };
+		6CEDA0E81A4E97430098C919 /* SCWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEDA0E31A4E97430098C919 /* SCWaveformView.m */; };
+		6CEDA0E91A4E97430098C919 /* SYWaveformPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEDA0E51A4E97430098C919 /* SYWaveformPlayerView.m */; };
+		6CEDA0ED1A4E97BB0098C919 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CEDA0EC1A4E97BB0098C919 /* QuartzCore.framework */; };
+		6CEDA0EF1A4E97BF0098C919 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CEDA0EE1A4E97BF0098C919 /* Foundation.framework */; };
+		6CEDA0F11A4E97C20098C919 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CEDA0F01A4E97C20098C919 /* CoreGraphics.framework */; };
+		6CEDA0F31A4E97C70098C919 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CEDA0F21A4E97C70098C919 /* UIKit.framework */; };
+		6CEDA0F61A4E98390098C919 /* I Need A Dollar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6CEDA0F51A4E98390098C919 /* I Need A Dollar.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +44,20 @@
 		6CEDA0C11A4E972B0098C919 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6CEDA0C41A4E972B0098C919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CEDA0C61A4E972B0098C919 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6CEDA0C91A4E972B0098C919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6CEDA0CF1A4E972B0098C919 /* SYWaveformPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYWaveformPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CEDA0D41A4E972B0098C919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CEDA0D51A4E972B0098C919 /* SYWaveformPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYWaveformPlayerTests.m; sourceTree = "<group>"; };
+		6CEDA0E01A4E97430098C919 /* pausebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausebutton.png; sourceTree = "<group>"; };
+		6CEDA0E11A4E97430098C919 /* playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbutton.png; sourceTree = "<group>"; };
+		6CEDA0E21A4E97430098C919 /* SCWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCWaveformView.h; sourceTree = "<group>"; };
+		6CEDA0E31A4E97430098C919 /* SCWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCWaveformView.m; sourceTree = "<group>"; };
+		6CEDA0E41A4E97430098C919 /* SYWaveformPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYWaveformPlayerView.h; sourceTree = "<group>"; };
+		6CEDA0E51A4E97430098C919 /* SYWaveformPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYWaveformPlayerView.m; sourceTree = "<group>"; };
+		6CEDA0EC1A4E97BB0098C919 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6CEDA0EE1A4E97BF0098C919 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6CEDA0F01A4E97C20098C919 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6CEDA0F21A4E97C70098C919 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6CEDA0F51A4E98390098C919 /* I Need A Dollar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I Need A Dollar.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +65,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CEDA0F31A4E97C70098C919 /* UIKit.framework in Frameworks */,
+				6CEDA0F11A4E97C20098C919 /* CoreGraphics.framework in Frameworks */,
+				6CEDA0EF1A4E97BF0098C919 /* Foundation.framework in Frameworks */,
+				6CEDA0ED1A4E97BB0098C919 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				6CEDA0B81A4E972B0098C919 /* SYWaveformPlayer */,
+				6CEDA0F41A4E97CA0098C919 /* Frameworks */,
 				6CEDA0D21A4E972B0098C919 /* SYWaveformPlayerTests */,
 				6CEDA0B71A4E972B0098C919 /* Products */,
 			);
@@ -81,13 +104,14 @@
 		6CEDA0B81A4E972B0098C919 /* SYWaveformPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				6CEDA0F51A4E98390098C919 /* I Need A Dollar.mp3 */,
+				6CEDA0DF1A4E97430098C919 /* SYWaveformPlayer */,
 				6CEDA0BD1A4E972B0098C919 /* AppDelegate.h */,
 				6CEDA0BE1A4E972B0098C919 /* AppDelegate.m */,
 				6CEDA0C01A4E972B0098C919 /* ViewController.h */,
 				6CEDA0C11A4E972B0098C919 /* ViewController.m */,
 				6CEDA0C31A4E972B0098C919 /* Main.storyboard */,
 				6CEDA0C61A4E972B0098C919 /* Images.xcassets */,
-				6CEDA0C81A4E972B0098C919 /* LaunchScreen.xib */,
 				6CEDA0B91A4E972B0098C919 /* Supporting Files */,
 			);
 			path = SYWaveformPlayer;
@@ -117,6 +141,30 @@
 				6CEDA0D41A4E972B0098C919 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CEDA0DF1A4E97430098C919 /* SYWaveformPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				6CEDA0E01A4E97430098C919 /* pausebutton.png */,
+				6CEDA0E11A4E97430098C919 /* playbutton.png */,
+				6CEDA0E21A4E97430098C919 /* SCWaveformView.h */,
+				6CEDA0E31A4E97430098C919 /* SCWaveformView.m */,
+				6CEDA0E41A4E97430098C919 /* SYWaveformPlayerView.h */,
+				6CEDA0E51A4E97430098C919 /* SYWaveformPlayerView.m */,
+			);
+			path = SYWaveformPlayer;
+			sourceTree = "<group>";
+		};
+		6CEDA0F41A4E97CA0098C919 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CEDA0F21A4E97C70098C919 /* UIKit.framework */,
+				6CEDA0F01A4E97C20098C919 /* CoreGraphics.framework */,
+				6CEDA0EE1A4E97BF0098C919 /* Foundation.framework */,
+				6CEDA0EC1A4E97BB0098C919 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +247,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CEDA0E61A4E97430098C919 /* pausebutton.png in Resources */,
+				6CEDA0E71A4E97430098C919 /* playbutton.png in Resources */,
+				6CEDA0F61A4E98390098C919 /* I Need A Dollar.mp3 in Resources */,
 				6CEDA0C51A4E972B0098C919 /* Main.storyboard in Resources */,
-				6CEDA0CA1A4E972B0098C919 /* LaunchScreen.xib in Resources */,
 				6CEDA0C71A4E972B0098C919 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +272,8 @@
 				6CEDA0C21A4E972B0098C919 /* ViewController.m in Sources */,
 				6CEDA0BF1A4E972B0098C919 /* AppDelegate.m in Sources */,
 				6CEDA0BC1A4E972B0098C919 /* main.m in Sources */,
+				6CEDA0E81A4E97430098C919 /* SCWaveformView.m in Sources */,
+				6CEDA0E91A4E97430098C919 /* SYWaveformPlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,14 +302,6 @@
 				6CEDA0C41A4E972B0098C919 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6CEDA0C81A4E972B0098C919 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6CEDA0C91A4E972B0098C919 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
