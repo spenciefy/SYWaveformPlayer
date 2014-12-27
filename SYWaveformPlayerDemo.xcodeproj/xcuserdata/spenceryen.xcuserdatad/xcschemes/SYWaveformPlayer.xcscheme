@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6CEDA0B51A4E972B0098C919"
-               BuildableName = "SYWaveformPlayer.app"
-               BlueprintName = "SYWaveformPlayer"
-               ReferencedContainer = "container:SYWaveformPlayer.xcodeproj">
+               BuildableName = "SYWaveformPlayerDemo.app"
+               BlueprintName = "SYWaveformPlayerDemo"
+               ReferencedContainer = "container:SYWaveformPlayerDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6CEDA0CE1A4E972B0098C919"
-               BuildableName = "SYWaveformPlayerTests.xctest"
-               BlueprintName = "SYWaveformPlayerTests"
-               ReferencedContainer = "container:SYWaveformPlayer.xcodeproj">
+               BuildableName = "SYWaveformPlayerDemoTests.xctest"
+               BlueprintName = "SYWaveformPlayerDemoTests"
+               ReferencedContainer = "container:SYWaveformPlayerDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6CEDA0CE1A4E972B0098C919"
-               BuildableName = "SYWaveformPlayerTests.xctest"
-               BlueprintName = "SYWaveformPlayerTests"
-               ReferencedContainer = "container:SYWaveformPlayer.xcodeproj">
+               BuildableName = "SYWaveformPlayerDemoTests.xctest"
+               BlueprintName = "SYWaveformPlayerDemoTests"
+               ReferencedContainer = "container:SYWaveformPlayerDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6CEDA0B51A4E972B0098C919"
-            BuildableName = "SYWaveformPlayer.app"
-            BlueprintName = "SYWaveformPlayer"
-            ReferencedContainer = "container:SYWaveformPlayer.xcodeproj">
+            BuildableName = "SYWaveformPlayerDemo.app"
+            BlueprintName = "SYWaveformPlayerDemo"
+            ReferencedContainer = "container:SYWaveformPlayerDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6CEDA0B51A4E972B0098C919"
-            BuildableName = "SYWaveformPlayer.app"
-            BlueprintName = "SYWaveformPlayer"
-            ReferencedContainer = "container:SYWaveformPlayer.xcodeproj">
+            BuildableName = "SYWaveformPlayerDemo.app"
+            BlueprintName = "SYWaveformPlayerDemo"
+            ReferencedContainer = "container:SYWaveformPlayerDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6CEDA0B51A4E972B0098C919"
-            BuildableName = "SYWaveformPlayer.app"
-            BlueprintName = "SYWaveformPlayer"
-            ReferencedContainer = "container:SYWaveformPlayer.xcodeproj">
+            BuildableName = "SYWaveformPlayerDemo.app"
+            BlueprintName = "SYWaveformPlayerDemo"
+            ReferencedContainer = "container:SYWaveformPlayerDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
