@@ -12,6 +12,8 @@ Main features:
 
 This project's waveform uses https://github.com/rFlex/SCWaveformView
 
+To use, just drag the SYWaveformPlayer folder into your project and #import "SYWaveformPlayerView.h"
+
 Example
 -------
     //Create AVURLAsset for waveform creation and audio playback
