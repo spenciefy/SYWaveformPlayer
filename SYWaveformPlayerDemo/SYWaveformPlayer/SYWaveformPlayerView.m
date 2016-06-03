@@ -31,15 +31,15 @@
         playPauseButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [playPauseButton setImage:[UIImage imageNamed:@"playbutton.png"] forState:UIControlStateNormal];
         [playPauseButton addTarget:self
-                   action:@selector(playPauseTapped)
-         forControlEvents:UIControlEventTouchUpInside];
+                            action:@selector(playPauseTapped)
+                  forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:playPauseButton];
         
         [NSTimer scheduledTimerWithTimeInterval:0.1 target: self
-                                                          selector: @selector(updateWaveform:) userInfo: nil repeats: YES];
-
+                                       selector: @selector(updateWaveform:) userInfo: nil repeats: YES];
+        
     }
-  
+    
     return self;
 }
 
@@ -69,9 +69,9 @@
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
     UITouch *touch = [[event allTouches]anyObject];
-    CGPoint location = [touch locationInView:touch.view];
-    if(location.x/self.frame.size.width > 0) {
-        waveformView.progress = location.x/self.frame.size.width;
+    CGPoint location = [touch locationInView:waveformView];
+    if(location.x/waveformView.frame.size.width > 0) {
+        waveformView.progress = location.x/waveformView.frame.size.width;
     }
 }
 
@@ -93,6 +93,6 @@
 - (void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player
                        successfully:(BOOL)flag {
     [playPauseButton setImage:[UIImage imageNamed:@"playbutton.png"] forState:UIControlStateNormal];
-
+    
 }
 @end
